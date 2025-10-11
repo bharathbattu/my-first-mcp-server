@@ -136,14 +136,11 @@ async function main() {
   });
 
   app.listen(config.PORT, () => {
-    logger.info(
-      "Bharath's MCP Server is running!",
-      {
-        environment: config.NODE_ENV,
-        serverName: config.SERVER_NAME,
-        version: config.SERVER_VERSION,
-      },
-    );
+    logger.info("Bharath's MCP Server is running!", {
+      environment: config.NODE_ENV,
+      serverName: config.SERVER_NAME,
+      version: config.SERVER_VERSION,
+    });
   });
 }
 
