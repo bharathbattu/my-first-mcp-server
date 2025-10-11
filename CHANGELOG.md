@@ -1,3 +1,10 @@
+# 1.0.0 (2025-10-11)
+
+
+### Bug Fixes
+
+* resolve CI/CD workflow failures - fix code formatting and update release workflow ([a789175](https://github.com/bharathbattu/my-first-mcp-server/commit/a78917511bd7658c4007a8d30851bfb2674cf1fc))
+
 # 1.0.0 (2025-10-08)
 
 
