@@ -5,6 +5,7 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 import { isInitializeRequest } from "@modelcontextprotocol/sdk/types.js";
 import { z } from "zod";
 import { createTextResult } from "./lib/utils.ts";
+import { generateMovieStory } from "./lib/movieStoryGenerator.ts";
 import { logger } from "./logger.ts";
 import { getConfig } from "./config.ts";
 
@@ -27,6 +28,19 @@ const getServer = () => {
     async (args) => {
       const data = { echo: args.message };
       return createTextResult(data);
+    },
+  );
+
+  server.registerTool(
+    "generate_movie_story",
+    {
+      title: "Generate Movie Story",
+      description: "Generates a random movie story idea",
+      inputSchema: {},
+    },
+    async () => {
+      const story = generateMovieStory();
+      return createTextResult(story);
     },
   );
 
@@ -123,7 +137,7 @@ async function main() {
 
   app.listen(config.PORT, () => {
     logger.info(
-      `MCP TypeScript Template Server running on port ${config.PORT}`,
+      "Bharath's MCP Server is running!",
       {
         environment: config.NODE_ENV,
         serverName: config.SERVER_NAME,
