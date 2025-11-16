@@ -10,7 +10,7 @@ A modern, production-ready TypeScript template for building Model Context Protoc
 
 
 
-- ** HTTP Transport**: Express-based MCP server with session management## 🚀 Features
+- ** HTTP Transport**: Express-based MCP server with session management##  Features
 
 - ** Structured Logging**: Pino logger with OpenTelemetry correlation support
 
