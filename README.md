@@ -14,7 +14,9 @@ A modern, production-ready TypeScript template for building Model Context Protoc
 
 - ** Structured Logging**: Pino logger with OpenTelemetry correlation support
 
-- ** Type-safe Configuration**: Environment variables validated with Zod schemas- ** HTTP Transport**: Express-based MCP server with session management
+- ** Type-safe Configuration**: Environment variables validated with Zod schemas
+  
+- ** HTTP Transport**: Express-based MCP server with session management
 
 - ** Fast Build System**: Vite for lightning-fast ES module builds- ** Structured Logging**: Pino logger with OpenTelemetry correlation support
 
