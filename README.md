@@ -6,31 +6,31 @@ A modern, production-ready TypeScript template for building Model Context Protoc
 
 
 
-## 🚀 FeaturesA modern, production-ready TypeScript template for building Model Context Protocol (MCP) servers with HTTP transport, structured logging, and comprehensive tooling.
+##  FeaturesA modern, production-ready TypeScript template for building Model Context Protocol (MCP) servers with HTTP transport, structured logging, and comprehensive tooling.
 
 
 
-- **🔌 HTTP Transport**: Express-based MCP server with session management## 🚀 Features
+- ** HTTP Transport**: Express-based MCP server with session management## 🚀 Features
 
-- **📝 Structured Logging**: Pino logger with OpenTelemetry correlation support
+- ** Structured Logging**: Pino logger with OpenTelemetry correlation support
 
-- **⚙️ Type-safe Configuration**: Environment variables validated with Zod schemas- **🔌 HTTP Transport**: Express-based MCP server with session management
+- ** Type-safe Configuration**: Environment variables validated with Zod schemas- ** HTTP Transport**: Express-based MCP server with session management
 
-- **⚡ Fast Build System**: Vite for lightning-fast ES module builds- **📝 Structured Logging**: Pino logger with OpenTelemetry correlation support
+- ** Fast Build System**: Vite for lightning-fast ES module builds- ** Structured Logging**: Pino logger with OpenTelemetry correlation support
 
-- **🧪 Modern Testing**: Vitest for unit and integration testing- **⚙️ Type-safe Configuration**: Environment variables validated with Zod schemas
+- ** Modern Testing**: Vitest for unit and integration testing- ** Type-safe Configuration**: Environment variables validated with Zod schemas
 
-- **🎯 TypeScript Strict Mode**: Full type safety with modern TypeScript- **⚡ Fast Build System**: Vite for lightning-fast ES module builds
+- ** TypeScript Strict Mode**: Full type safety with modern TypeScript- ** Fast Build System**: Vite for lightning-fast ES module builds
 
-- **🔧 Developer Experience**: Hot reload, linting, formatting, and more- **🧪 Modern Testing**: Vitest for unit and integration testing
+- ** Developer Experience**: Hot reload, linting, formatting, and more- ** Modern Testing**: Vitest for unit and integration testing
 
-- **🐳 Docker Ready**: Production-optimized Dockerfile included- **🎯 TypeScript Strict Mode**: Full type safety with modern TypeScript
+- ** Docker Ready**: Production-optimized Dockerfile included- ** TypeScript Strict Mode**: Full type safety with modern TypeScript
 
-- **📦 Example Tools**: Pre-built tools to get started quickly- **🔧 Developer Experience**: Hot reload, linting, formatting, and more
+- ** Example Tools**: Pre-built tools to get started quickly- ** Developer Experience**: Hot reload, linting, formatting, and more
 
-- **🐳 Docker Ready**: Production-optimized Dockerfile included
+- ** Docker Ready**: Production-optimized Dockerfile included
 
-## 📋 Prerequisites- **📦 Example Tools**: Pre-built tools to get started quickly
+##   Prerequisites- ** Example Tools**: Pre-built tools to get started quickly
 
 
 
@@ -40,7 +40,7 @@ A modern, production-ready TypeScript template for building Model Context Protoc
 
 This template provides:
 
-## 🚀 Quick Start
+##  Quick Start
 
 - **TypeScript** - Full TypeScript support with strict configuration
 
@@ -110,7 +110,7 @@ npm start   ```
 
 The server will be available at `http://localhost:3000` for MCP connections.
 
-## 📚 Available Scripts
+##  Available Scripts
 
 ## Development
 
@@ -138,7 +138,7 @@ The server will be available at `http://localhost:3000` for MCP connections.
 
 ```
 
-## 🛠️ Available MCP Tools
+##  Available MCP Tools
 
 ### Linting
 
@@ -208,7 +208,7 @@ Generates a random movie story idea with genre, protagonist, goal, and obstacle.
 
 
 
-## 📁 Project StructureEchoes back the provided message - a simple example to demonstrate MCP tool implementation.
+##  Project StructureEchoes back the provided message - a simple example to demonstrate MCP tool implementation.
 
 
 
@@ -254,7 +254,7 @@ mcp-typescript-template/
 
 
 
-## ⚙️ Configuration- Run the container
+##  Configuration- Run the container
 
 
 
@@ -302,7 +302,7 @@ LOG_LEVEL=debugdocker-compose up --build
 
 
 
-## 🏗️ Architecture## Project Structure
+##  Architecture## Project Structure
 
 
 
@@ -360,7 +360,7 @@ Environment variables are:- **Session Management** - Handles MCP session initial
 
 
 
-## 🔧 Customization Guideserver.registerTool(
+##  Customization Guideserver.registerTool(
 
   "my_tool",
 
@@ -466,16 +466,16 @@ describe('myCustomLogic', () => {
 ```typescript
 import { logger } from './logger.js';
 
-// ✅ Good - Structured with context
+//  Good - Structured with context
 logger.info('User action completed', { userId: 123, action: 'login' });
 
-// ✅ Good - Error logging
+//  Good - Error logging
 logger.error('Failed to process request', { 
   error: error.message,
   requestId: req.id 
 });
 
-// ❌ Bad - Avoid console.log
+//  Bad - Avoid console.log
 console.log('Something happened');
 ```
 
@@ -486,15 +486,15 @@ console.log('Something happened');
 ```typescript
 import { getConfig } from './config.js';
 
-// ✅ Good - Type-safe and validated
+//  Good - Type-safe and validated
 const config = getConfig();
 const port = config.PORT;
 
-// ❌ Bad - No validation or type safety
+//  Bad - No validation or type safety
 const port = process.env.PORT;
 ```
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 ### Build Docker Image
 
@@ -538,7 +538,7 @@ Run with:
 docker-compose up -d
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests
 
@@ -575,7 +575,7 @@ describe('createTextResult', () => {
 });
 ```
 
-## 📝 Code Quality
+##  Code Quality
 
 ### Linting
 
@@ -601,7 +601,7 @@ npm run format
 npm run format:check
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/my-feature`
@@ -615,11 +615,11 @@ npm run format:check
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🔗 Resources
+##  Resources
 
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io)
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
@@ -628,7 +628,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Pino Logger](https://getpino.io)
 - [Express.js](https://expressjs.com)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with the [Model Context Protocol](https://modelcontextprotocol.io)
 - Inspired by modern TypeScript best practices
@@ -636,4 +636,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Happy coding!** 🚀 If you find this template helpful, please consider giving it a star ⭐
+**Happy coding!**  If you find this template helpful, please consider giving it a star 
