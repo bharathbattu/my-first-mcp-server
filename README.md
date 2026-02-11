@@ -1,37 +1,22 @@
-# MCP TypeScript Template# MCP TypeScript Template
+# MCP TypeScript Template
 
+A modern, production-ready TypeScript template for building Model Context Protocol (MCP) servers with HTTP transport, structured logging, and comprehensive tooling.
 
+---
 
-A modern, production-ready TypeScript template for building Model Context Protocol (MCP) servers with HTTP transport, structured logging, and comprehensive tooling.# MCP TypeScript Template
+## Features
 
+- HTTP transport using Express and StreamableHTTPServerTransport
+- Structured logging with Pino (OpenTelemetry ready)
+- Type-safe configuration with Zod validation
+- Strict TypeScript configuration
+- Fast build system powered by Vite
+- Modern testing using Vitest
+- Docker-ready production setup
+- Example tools included
+- Hot reload and developer-friendly workflow
 
-
-##  FeaturesA modern, production-ready TypeScript template for building Model Context Protocol (MCP) servers with HTTP transport, structured logging, and comprehensive tooling.
-
-
-
-- ** HTTP Transport**: Express-based MCP server with session management##  Features
-
-- ** Structured Logging**: Pino logger with OpenTelemetry correlation support
-
-- ** Type-safe Configuration**: Environment variables validated with Zod schemas
-  
-- ** HTTP Transport**: Express-based MCP server with session management
-
-- ** Fast Build System**: Vite for lightning-fast ES module builds- ** Structured Logging**: Pino logger with OpenTelemetry correlation support
-
-- ** Modern Testing**: Vitest for unit and integration testing- ** Type-safe Configuration**: Environment variables validated with Zod schemas
-
-- ** TypeScript Strict Mode**: Full type safety with modern TypeScript- ** Fast Build System**: Vite for lightning-fast ES module builds
-
-- ** Developer Experience**: Hot reload, linting, formatting, and more- ** Modern Testing**: Vitest for unit and integration testing
-
-- ** Docker Ready**: Production-optimized Dockerfile included- ** TypeScript Strict Mode**: Full type safety with modern TypeScript
-
-- ** Example Tools**: Pre-built tools to get started quickly- ** Developer Experience**: Hot reload, linting, formatting, and more
-
-- ** Docker Ready**: Production-optimized Dockerfile included
-
+---
 ##   Prerequisites- ** Example Tools**: Pre-built tools to get started quickly
 
 
