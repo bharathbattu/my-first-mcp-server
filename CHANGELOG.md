@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bharathbattu/MCP-Server-/compare/v1.0.0...v1.1.0) (2026-08-19)
+
+
+### Features
+
+* add deterministic health status helper ([a08bc0a](https://github.com/bharathbattu/MCP-Server-/commit/a08bc0a500b6751b305c6072b50ccfcae785f958))
+
 # 1.0.0 (2025-10-11)
 
 
